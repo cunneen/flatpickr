@@ -1,10 +1,10 @@
 ## flatpickr - javascript datetime picker
-[![Build Status](https://circleci.com/gh/flatpickr/flatpickr/tree/master.svg?style=shield)](https://circleci.com/gh/flatpickr/flatpickr/tree/master)
+[![Build Status](https://circleci.com/gh/flatpickr/flatpickr/tree/master.svg?style=shield)](https://circleci.com/cunneen/flatpickr/flatpickr/tree/juto-flatpickr)
 
-[![Coverage](https://coveralls.io/repos/github/chmln/flatpickr/badge.svg?branch=master)](https://coveralls.io/github/chmln/flatpickr)
-[![npm version](https://badge.fury.io/js/flatpickr.svg)](https://www.npmjs.com/package/flatpickr)
-[![CDNJS](https://img.shields.io/cdnjs/v/flatpickr.svg)](https://cdnjs.com/libraries/flatpickr)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/flatpickr/flatpickr/master/LICENSE.md)
+[![Coverage](https://coveralls.io/repos/github/cunneen/flatpickr/badge.svg?branch=juto-flatpickr)](https://coveralls.io/github/cunneen/flatpickr)
+[![npm version](https://badge.fury.io/js/juto-flatpickr.svg)](https://www.npmjs.com/package/juto-flatpickr)
+[![CDNJS](https://img.shields.io/cdnjs/v/juto-flatpickr.svg)](https://cdnjs.com/libraries/juto-flatpickr)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/cunneen/flatpickr/master/LICENSE.md)
 
 
 ![blue](https://cloud.githubusercontent.com/assets/11352152/14549371/3cbb65da-028d-11e6-976d-a6f63f32061f.PNG)
@@ -14,6 +14,12 @@
 ![default](https://cloud.githubusercontent.com/assets/11352152/14549370/3cadb750-028d-11e6-818d-c6a1bc6349fc.PNG)
 ![dark](https://cloud.githubusercontent.com/assets/11352152/14549372/3cbc8514-028d-11e6-8daf-ec1ba01c9d7e.PNG)
 
+## NOTE
+This is a temporary fork of [flatpickr](https://github.com/flatpickr/flatpickr) with a fix for [Issue #2084](https://github.com/flatpickr/flatpickr/issues/2084). If that issue doesn't affect you or has been fixed in the original repository, use the original repo instead. This one is published on NPM as `@cunneen/flatpickr` i.e.:
+
+```
+npm install @cunneen/flatpickr
+```
 
 ## Motivation
 Almost every large SPA or project involves date and time input. Browser's native implementations of those are inconsistent and limited in functionality. Most other libraries require you to pull in heavy dependencies like jQuery, Bootstrap, and moment.js. I wanted something that was good-looking out of the box, dependency-free, powerful, and extensible.
